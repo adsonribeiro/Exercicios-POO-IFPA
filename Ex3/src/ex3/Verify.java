@@ -10,23 +10,21 @@ public class Verify {
         }
     }
     public void Pa(int n1, int n2) {
-        int inicial, razao, tpa;
-        inicial = n1;
+        int razao, tpa;
         razao = n2;
-        tpa = inicial;
-        while (tpa != 0) {
+        tpa = n1;
+        while (tpa > 0) {
             System.out.println(tpa);
-            tpa = tpa + razao;
+            tpa += razao;
         }
     }
     public void Pg(int n1, int n2) {
-        int inicial, razao, tpg;
-        inicial = n1;
+        int razao, tpg;
+        tpg = n1;
         razao = n2;
-        tpg = inicial;
         while (tpg != 0) {
             System.out.println(tpg);
-            tpg = tpg * razao;
+            tpg *= razao;
         }
     }
 }
