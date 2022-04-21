@@ -13,16 +13,16 @@ public class Verify {
         int razao, tpa;
         razao = n2;
         tpa = n1;
-        while (tpa > 0) {
-            System.out.println(tpa);
-            tpa += razao;
-        }
+            for (int i = 0; i<=n1;i++){
+                System.out.println(tpa);
+                tpa += razao;
+            }
     }
     public void Pg(int n1, int n2) {
         int razao, tpg;
         tpg = n1;
         razao = n2;
-        while (tpg != 0) {
+        for (int i = 0;i<=n1;i++) {
             System.out.println(tpg);
             tpg *= razao;
         }
